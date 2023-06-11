@@ -6,6 +6,6 @@ import retrofit2.http.GET
 interface memeApi {
 
     @GET("/gimme")
-    suspend fun getMeme(): Response<meme>
+    suspend fun getMeme(): Response<Meme>
 
 }
